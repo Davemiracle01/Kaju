@@ -465,15 +465,28 @@
       <a class="product-order-btn" href="https://wa.me/255632367661?text=Habari%20Kaju%2C%20ninahitaji%20VPS%20@%2035%2C000%20TSH" target="_blank">📲 Agiza Sasa · Order Now</a>
     </div>
 
-    <div class="product-card reveal" style="transition-delay:.3s; border-color:rgba(16,217,138,0.2);">
-      <div class="product-badge" style="background:rgba(16,217,138,0.12);color:var(--green);border:1px solid rgba(16,217,138,0.25);">BURE · FREE</div>
-      <div class="product-icon" style="background:rgba(16,217,138,0.08);border-color:rgba(16,217,138,0.2);">🤖</div>
-      <div class="product-name">WhatsApp Bot Pairing</div>
-      <div class="product-name-sw">Uunganishaji wa Bot — Bila Malipo</div>
-      <p class="product-desc">Unganisha bot yako ya WhatsApp bila gharama. Huduma ya moja kwa moja na Kaju. Connect your WhatsApp bot — completely free.</p>
-      <div class="product-price" style="color:var(--green);">0 <span>TSH</span></div>
-      <a class="product-order-btn" href="http://173.249.41.187:4025/" target="_blank" style="color:var(--green);border-color:rgba(16,217,138,0.3);background:rgba(16,217,138,0.05);">🤖 Pata Bure · Get Free →</a>
-    </div>
+   <div class="product-card reveal" style="transition: opacity 0.6s ease, transform 0.6s ease; transition-delay: 0.3s; opacity: 0; transform: translateY(20px); border-color: rgba(16,217,138,0.2); border-radius: 12px; padding: 24px; max-width: 320px; background: #fff; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+  <div class="product-badge" style="background: rgba(16,217,138,0.12); color: #10d98a; border: 1px solid rgba(16,217,138,0.25); padding: 6px 12px; border-radius: 6px; font-size: 12px; font-weight: 600; display: inline-block; margin-bottom: 12px;">BURE · FREE</div>
+  <div class="product-icon" style="background: rgba(16,217,138,0.08); border-color: rgba(16,217,138,0.2); border: 1px solid; width: 60px; height: 60px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 28px; margin-bottom: 16px;">🤖</div>
+  <div class="product-name" style="font-size: 18px; font-weight: 700; color: #1a1a1a; margin: 0 0 4px 0;">WhatsApp Bot Pairing</div>
+  <div class="product-name-sw" style="font-size: 14px; color: #666; margin: 0 0 12px 0;">Uunganishaji wa Bot — Bila Malipo</div>
+  <p class="product-desc" style="font-size: 14px; color: #444; margin: 0 0 20px 0; line-height: 1.5;">Unganisha bot yako ya WhatsApp bila gharama. Huduma ya moja kwa moja na Kaju. Connect your WhatsApp bot — completely free.</p>
+  <div class="product-price" style="color: #10d98a; font-size: 24px; font-weight: 700; margin: 0 0 20px 0;">0 <span style="font-size: 16px; font-weight: 500;">TSH</span></div>
+  <a class="product-order-btn" href="http://173.249.41.187:4025/" target="_blank" style="color: #10d98a; border: 1px solid rgba(16,217,138,0.3); background: rgba(16,217,138,0.05); padding: 12px 20px; border-radius: 8px; text-decoration: none; font-weight: 600; display: inline-block; transition: all 0.2s ease; cursor: pointer;" onmouseover="this.style.background='rgba(16,217,138,0.15)'; this.style.transform='translateY(-2px)'" onmouseout="this.style.background='rgba(16,217,138,0.05)'; this.style.transform='translateY(0)')">🤖 Pata Bure · Get Free →</a>
+</div>
+
+<!-- Add this script to make the reveal animation work -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const reveals = document.querySelectorAll('.reveal');
+    reveals.forEach(function(reveal) {
+      setTimeout(function() {
+        reveal.style.opacity = '1';
+        reveal.style.transform = 'translateY(0)';
+      }, 300);
+    });
+  });
+</script> 
 
   </div>
 </section>
